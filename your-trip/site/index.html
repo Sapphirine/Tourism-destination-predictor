@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>About</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="icon" href="/static/images/favicon.ico">
+		<link rel="shortcut icon" href="/static/images/favicon.ico" />
+		<link rel="stylesheet" href="/static/booking/css/booking.css">
+		<link rel="stylesheet" href="/static/css/camera.css">
+		<link rel="stylesheet" href="/static/css/owl.carousel.css">
+		<link rel="stylesheet" href="/static/css/style.css">
+		<script src="/static/js/jquery.js"></script>
+		<script src="/static/js/jquery-migrate-1.2.1.js"></script>
+		<script src="/static/js/script.js"></script>
+		<script src="/static/js/superfish.js"></script>
+		<script src="/static/js/jquery.ui.totop.js"></script>
+		<script src="/static/js/jquery.equalheights.js"></script>
+		<script src="/static/js/jquery.mobilemenu.js"></script>
+		<script src="/static/js/jquery.easing.1.3.js"></script>
+		<script src="/static/js/owl.carousel.js"></script>
+		<script src="/static/js/camera.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="/static/js/jquery.mobile.customized.min.js"></script>
+		<!--<![endif]-->
+		<script src="/static/booking/js/booking.js"></script>
+		<script>
+			$(document).ready(function(){
+			jQuery('#camera_wrap').camera({
+				loader: false,
+				pagination: false ,
+				minHeight: '444',
+				thumbnails: false,
+				height: '48.375%',
+				caption: true,
+				navigation: true,
+				fx: 'mosaic'
+			});
+			/*carousel*/
+			var owl=$("#owl");
+				owl.owlCarousel({
+				items : 2, //10 items above 1000px browser width
+				itemsDesktop : [995,2], //5 items between 1000px and 901px
+				itemsDesktopSmall : [767, 2], // betweem 900px and 601px
+				itemsTablet: [700, 2], //2 items between 600 and 0
+				itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+				navigation : true,
+				pagination : false
+				});
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="page1" id="top">
+<!--==============================header=================================-->
+		<header>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="menu_block">
+						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+							<ul class="sf-menu">
+								<li class="current"><a href="/">ABOUT</a></li>
+								<li><a href="/hottours">HOT TOURS</a></li>
+								<li><a href="/special_offer">SPECIAL OFFERS </a></li>
+								<li><a href = '/background'>Background</a></li>
+								<li><a href="/contact">CONTACTS</a></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_12">
+					<h1>
+						<a href="/">
+							<img src="/static/images/logo.png" alt="Your Happy Family">
+						</a>
+					</h1>
+				</div>
+			</div>
+		</header>
+		<div class="slider_wrapper">
+			<div id="camera_wrap" class="">
+				<div data-src="/static/images/slide.jpg">
+					<div class="caption fadeIn">
+						<h2>Miami</h2>
+						<div class="price">
+							FROM
+							<span>$2000</span>
+						</div>
+						<a href="https://roadtrippers.com/us/south-beach-fl/nature/south-beach-south-beach">LEARN MORE</a>
+					</div>
+				</div>
+				<div data-src="/static/images/slide1.jpg">
+					<div class="caption fadeIn">
+						<h2>Hawaii</h2>
+						<div class="price">
+							FROM
+							<span>$2000</span>
+						</div>
+						<a href="https://roadtrippers.com/us/hi/accommodation/waikoloa-beach-resort-hi?lat=19.84552&lng=-156.69937&z=9&a2=p!1">LEARN MORE</a>
+					</div>
+				</div>
+				<div data-src="/static/images/slide2.jpg">
+					<div class="caption fadeIn">
+						<h2>Buffalo</h2>
+						<div class="price">
+							FROM
+							<span>$1600</span>
+						</div>
+						<a href="https://roadtrippers.com/us/niagara-falls-ny/points-of-interest/niagara-falls">LEARN MORE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--==============================Content=================================-->
+		<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - February 10, 2014!</div>
+			<div class="container_12">
+				<div class="grid_4">
+					<div class="banner">
+						<img src="/static/images/ban_img1.jpg" alt="">
+						<div class="label">
+							<div class="title">New York</div>
+							<div class="price">FROM<span>$ 1000</span></div>
+							<a href="https://roadtrippers.com/us/new-york-ny/attractions/the-empire-state-building?lat=41.93586&lng=-75.55031&z=6&a2=p!1">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<img src="/static/images/ban_img2.jpg" alt="">
+						<div class="label">
+							<div class="title">Los Angeles</div>
+							<div class="price">FROM<span>$ 1.500</span></div>
+							<a href="https://roadtrippers.com/us/santa-monica-ca/nature/santa-monica-state-beach?lat=33.90146&lng=-118.38426&z=9&a2=p!1">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<img src="/static/images/ban_img3.jpg" alt="">
+						<div class="label">
+							<div class="title">San Francisco</div>
+							<div class="price">FROM<span>$ 1.600</span></div>
+							<a href="https://roadtrippers.com/us/san-francisco-ca/points-of-interest/golden-gate-bridge?lat=37.69769&lng=-122.66732&z=9&a2=p!1">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="grid_6">
+					<h3>Searching Platform</h3>
+					<form id="bookingForm">
+						<div class="fl1">
+							<div class="tmInput">
+								<input name="Place1" placeHolder="Place1:" type="text" data-constraints='@NotEmpty @Required @AlphaSpecial'> <!--@Required @AlphaSpecial-->
+							</div>
+							<div class="tmInput">
+								<input name="Place2" placeHolder="Place2:" type="text" data-constraints="">
+							</div>
+						</div>
+						<div class="fl1">
+							<div class="tmInput">
+								<input name="Place3" placeHolder="Place3:" type="text" data-constraints="">
+							</div>
+							<div class="tmInput mr0">
+								<input name="Place4" placeHolder="Place4:" type="text" data-constraints="">
+							</div>
+						</div>
+						<div class="clear"></div>
+						<strong>Tourism Start</strong>
+						<label class="tmDatepicker">
+							<input type="text" name="Check-in" placeHolder='10/05/2016' data-constraints="@NotEmpty @Required @Date">
+						</label>
+						<div class="clear"></div>
+						<strong>Tourism End</strong>
+						<label class="tmDatepicker">
+							<input type="text" name="Check-out" placeHolder='20/05/2016' data-constraints="@NotEmpty @Required @Date">
+						</label>
+						<div class="clear"></div>
+						<div class="tmRadio">
+							<p>Comfort</p>
+							<input name="Comfort" type="radio" id="tmRadio0" data-constraints='@RadioGroupChecked(name="Comfort", groups=[RadioGroup])' checked/>
+							<span>< $1000</span> 
+							<input name="Comfort" type="radio" id="tmRadio1" data-constraints='@RadioGroupChecked(name="Comfort", groups=[RadioGroup])' />
+							<span>$1000 ~ $3000</span>
+							<input name="Comfort" type="radio" id="tmRadio2" data-constraints='@RadioGroupChecked(name="Comfort", groups=[RadioGroup])' />
+							<span>> $3000</span>
+						</div>
+						<div class="clear"></div>
+						<div class="fl1 fl2">
+							<em>Tag1</em>
+							<select name="tag1" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>1</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+								
+							</select>
+							<div class="clear"></div>
+							<em>Tag2</em>
+							<select name="tag2" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>0</option>
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+						</div>
+						<div class="fl1 fl2">
+							<em>Tag3</em>
+							<select name="tag3" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>0</option>
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+						</div>
+						
+						<div class="clear"></div>
+						<div >
+							<textarea style="font-family: sans-serif;font-size:13px;color:red;" readonly="readonly">1. Park Attraction &nbsp; &nbsp; 6. Historic sites &#13;&#10;2. Nightlife Attraction &nbsp; &nbsp; 7. Art_science &#13;&#10;3. Children Center &nbsp; &nbsp; 8. Aquatic Events&#13;&#10;4. Natural Points &nbsp; &nbsp;9. Shows&Opera &#13;&#10;5. Sports &nbsp; &nbsp; 10. Adventure experience
+						    </textarea>
+						</div>
+					
+						<a href="#" class="btn" data-type="submit">Submit</a>
+					</form>
+				</div>
+				<div class="grid_5 prefix_1">
+					<h3>Welcome</h3>
+					<img src="/static/images/page1_img1.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<p>This project aims to develop a searching platform, by which tourists in road trip can receive the recommendations of interest of places based on their input information.</p>
+					</div>
+					<div class="clear cl1"></div>
+					<p> This platform
+						supports 5 different kinds of input boxes, where people can choose any of them as the
+						computing standard of the platform. 
+					</p>
+					<p>
+					    The five distinct categories are the preferred places 
+						people want to travel, tourism time, budget, soft services and characters of tourists
+						(teenagers prefer playground or shopping mall ). </p>
+					
+					<h4>Clients’ Quotes</h4>
+					<blockquote class="bq1">
+						<img src="/static/images/page1_img2.jpg" alt="" class="img_inner noresize fleft">
+						<div class="extra_wrapper">
+							<p>To be successful in real estate, you must always and aconsistently put your clients' best interests first. When you do, your personal needs will be realized beyond your greatest expectations. </p>
+							<div class="alright">
+								<div class="col1">Anthony Hitt</div>
+								<a href="http://www.brainyquote.com/quotes/quotes/a/anthonyhit409540.html?src=t_clients" class="btn">More</a>
+							</div>
+						</div>
+					</blockquote>
+				</div>
+				<!--
+				<div class="grid_12">
+					<h3 class="head1">Latest News</h3>
+				</div>
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">10<span>Jan</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">Aliquam nibh</a></div>
+							Proin pharetra luctus diam, any scelerisque eros convallisumsan. Maecenas vehicula egestas
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">21<span>Jan</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">Etiam dui eros</a></div>
+							Any scelerisque eros vallisumsan. Maecenas vehicula egestas natis. Duis massa elit, auctor non
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">15<span>Feb</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">uamnibh Edeto</a></div>
+							Ros convallisumsan. Maecenas vehicula egestas venenatis. Duis massa elit, auctor non
+						</div>
+					</div>
+				</div>
+			-->
+			</div>
+		</div>
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="socials">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-google-plus"></a>
+					</div>
+					<div class="copy">
+						Your Trip (c) 2016 by YIHAN DAI&ZIKAI LIN | <a href="#">Privacy Policy</a>  
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+			$(function (){
+				$('#bookingForm').bookingForm({
+					ownerEmail: '#'
+				});
+			})
+			$(function() {
+				$('#bookingForm input, #bookingForm textarea').placeholder();
+			});
+		</script>
+	</body>
+</html>
+
