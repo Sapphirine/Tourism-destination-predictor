@@ -1,0 +1,11 @@
+Consumer Key:	
+	gbYB3BOZHA124isAf4DOJA
+
+Consumer Secret:	
+	1hC-KUCOx5auBNwvAa7SOOo_n-8
+
+Token:	
+	-9PnRhBDpavsYc4GuPPfNFS_HoEl71ud
+
+Token Secret:	
+	oo-vdlfeYrPaRHDMB6QWatKZREM

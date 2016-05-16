@@ -1,0 +1,64 @@
+Local Theater : 4718
+Campground : 2968
+Tourist Attraction : 21455
+Art Museum : 1858
+Other Sporting Facility : 3115
+Military Site : 1829
+Nightlife Spot : 3376
+City Park : 13695
+Ski Area : 1415
+TV Filming Location : 2307
+Automotive Attraction : 3197
+Library : 1630
+Other Sport Stadium : 1295
+State Park : 1968
+Architectural Site : 5750
+Bar : 2998
+Government Building : 1624
+Museum : 13256
+Theater : 5254
+Science Place : 2664
+Native Culture : 1214
+Art Gallery : 5297
+Music Venue : 6314
+Drive-in Movie Theater : 1032
+Natural Feature : 5711
+Offbeat Attraction : 5512
+Other Historical : 5123
+Scenic Point : 6339
+Local Dining : 2013
+Concert Hall : 2863
+Zoo : 4836
+Other Amusement : 2059
+Nature Reserve : 9072
+Cinema : 1019
+Speedway : 1673
+Hiking Area : 11447
+Photo Op : 1723
+Forest : 4091
+Fishing Spot : 5164
+Water Sports : 3279
+Beach : 3087
+Vacation Rental : 1573
+Comedy Club : 2831
+Community Park : 3938
+Other Outdoor Place : 1597
+Cottage / Cabin : 1374
+Restaurant : 3128
+Tour : 6717
+Other Adventure Sport : 1862
+Show : 2934
+Roadside Attraction : 1457
+Cycling Area : 1595
+Science Museum : 2642
+Children's Attraction : 13959
+Stadium : 2216
+Folk Art : 1306
+Hotel : 1382
+Place of Worship : 1059
+Amusement Park : 2098
+Monument : 3787
+History Museum : 2725
+Historic Site : 17796
+Engineering Marvel : 3084
+RV Park : 1155
